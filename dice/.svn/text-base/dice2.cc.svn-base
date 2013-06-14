@@ -1,0 +1,14 @@
+#include<time.h>
+#include<cstdlib>
+using namespace std;
+#define N 6
+
+void dice_roll()
+{
+int r[2];
+srand ( (unsigned)time ( NULL ) );
+    for ( i = 0; i < 2; i++ )
+    {
+    r[i] =( rand() % ( N - i ) + 1 );
+    }	
+}

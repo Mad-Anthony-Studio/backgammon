@@ -1,0 +1,116 @@
+This is the folder containing the BinNode class.  This class implements various functions of a binary tree, most importantly, binary search and insert.
+
+To compile this class, within this directory, simply type 'make'
+
+Most important functions may be found in treeOps.cc
+
+TODOS:
+1. Add 'make test' to the Makefile
+2. Implement insert(int) - insert a given value
+3. Implement remove(int) - remove a given value
+4. Implement searchTree(int) - find a given value
+5. Implement showTree() - show the tree
+
+
+
+/***** BinNode API: ******************************************
+ *
+ *************************************************************
+ * BinNode() -  Defalut constrcutor
+ *
+ *	Creates a new BinNode, setting its value to 0
+ * 
+ * ex:
+ *	BinNode  *myTree = new BinNode();
+ *
+ *************************************************************
+ *
+ * BinNode(int) - Overloaded constructor
+ *
+ *	Creates a new BinNode, setting its value to i
+ *
+ * ex:
+ *	int i = 10;
+ *	BinNode *myTree = new BinNode(i);
+ *
+ *************************************************************
+ *
+ * BinNode :: insert(int)
+ *
+ * 	Appends a new BinNode to the tree, by creating a new
+ *	BinNode in the correct place, setting its value to i
+ *
+ * ex:
+ * 	int i = 10;
+ *
+ *	BinNode *myTree = new BinNode();
+ * 	myTree -> insert(i);
+ *
+ *************************************************************
+ *
+ * BinNode :: search(int)
+ *
+ * ex:
+ *	BinNode *myTree = new BinNode();
+ *	... // add something
+ *
+ *	int i = 11;
+ *	myTree -> search(i);
+ *
+ *************************************************************
+ *
+ * BinNode :: remove(int)
+ *
+ * ex:
+ *	BinNode *myTree = new BinNode();
+ *	... // add something
+ *
+ *	int i = 12;
+ *	myTree -> remove(i);
+ *
+ *************************************************************
+ *
+ * BinNode :: showTree()
+ *
+ * ex:
+ *	BinNode *myTree = new BinNode();
+ *
+ *	... // add something
+ *
+ *	myTree -> showTree();
+ *
+ *************************************************************
+ *
+ * BinNode :: showTree(BinNode *start)
+ *
+ * ex:
+ *	BinNode *myTree = new BinNode();
+ * 	BinNode *tmp;
+ *
+ *	int j = 0;
+ *	int i = 0;
+ *
+ *	... // add something
+ *	
+ *	j = 10;
+ *	
+ *	for(i = 0; i < j; i++){
+ *
+ *		//set tmp to a spot in the middle
+ *		tmp = myTree -> right;
+ * 
+ *	}
+ *
+ *	myTree -> showTree(tmp);
+ *
+ *************************************************************
+ *
+ * int BinNode :: getValue()
+ *
+ * ex:
+ *	int i = 15;
+ *	BinNode *myTree = new BinNode(i);
+ *
+ *	int j = myTree -> getValue();
+ *
+ *************************************************************

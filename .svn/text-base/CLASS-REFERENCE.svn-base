@@ -1,0 +1,46 @@
+// Basic class construction
+
+node class
+	constructor() - parameter list constructor() - constructor(value)
+	destructor()
+	copy() - copy = Node* (return value) 
+
+	*prev
+	*next
+	int value
+	*data
+
+list class
+	constructor()
+	destructor()
+	search(value) - Node*
+	insert(value) - bool
+		insert(value)
+		insert(value, location)
+		insert(Node, location)
+	append() - bool
+		append(value)
+		append(value, location)
+		append(node, location)
+	remove(Node) - Node*
+		
+	*start
+	*end
+
+stack class
+	constructor()
+	desctructor()
+	*top
+	push(Node) - bool
+		push(value)
+	pop() - Node*
+	peek() - Node*
+
+-=-=-=-=-=-=-= example -=-=-=-=-=-=-=-=-
+
+see -> node.h
+
+
+
+
+
