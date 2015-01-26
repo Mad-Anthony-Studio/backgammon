@@ -1,4 +1,5 @@
 language: cpp
+install: make
 compiler:
   - clang
   - gcc
