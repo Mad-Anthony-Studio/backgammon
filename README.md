@@ -1,6 +1,7 @@
 Backgammon
 ==============
 [![License](http://img.shields.io/badge/license%20-cc-green.svg)](http://creativecommons.org/licenses/by-nc/3.0/deed.en_US)
+[![Build Status](https://travis-ci.org/fassetar/Backgammon.svg)](https://travis-ci.org/fassetar/Backgammon)
 <br>
  I like to think this project that got my foot in the door with game development.
 
