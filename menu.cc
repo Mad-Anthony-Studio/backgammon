@@ -13,7 +13,7 @@ using namespace std;
 
 int menu()
 {
-    system("dialog --menu "Backgammon v0.1" 20 40 40 1 "New Game" 2 "Resume Game"  3 Quit");
+	system("dialog --menu "Backgammon v0.1" 20 40 40 1 "New Game" 2 "Resume Game"  3 Quit");
 	/*
 	cout << "-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-" << endl;
 	cout << "-=              WheeFun Backgammon!                =-" << endl;	
