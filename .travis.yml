@@ -1,5 +1,7 @@
 language: cpp
-install: make
-compiler:
-  - clang
+
+compiler:  
   - gcc
+
+script: make  
+

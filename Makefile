@@ -140,9 +140,7 @@ clean:
 
 libs-help:
 	@echo
-	@echo "*************************[ Backgammon Project ]*************************"
-	@echo "** CSCS2320 Data Structures                        Fall 2010 Semester **"
-	@echo "** APIs/Documentation:         http://lab46.corning-cc.edu/notes/data **"
+	@echo "*************************[ Backgammon Project ]*************************"	
 	@echo "**                                                                    **"
 	@echo "** This is the Makefile to handle many of the clerical tasks of the   **"
 	@echo "** code. Please use one of the available options listed:              **"
@@ -173,9 +171,7 @@ libs-help:
 
 help:
 	@echo
-	@echo "*************************[ Backgammon Project ]*************************"
-	@echo "** CSCS2320 Data Structures                        Fall 2010 Semester **"
-	@echo "** APIs/Documentation:         http://lab46.corning-cc.edu/notes/data **"
+	@echo "*************************[ Backgammon Project ]*************************"	
 	@echo "**                                                                    **"
 	@echo "** This is the Makefile to handle many of the clerical tasks of the   **"
 	@echo "** code. Please use one of the available options listed:              **"
